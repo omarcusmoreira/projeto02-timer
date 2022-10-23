@@ -63,7 +63,7 @@ export const StartButton = styled.button`
 
 
     &:disabled{
-        opacity: .7;
+        opacity: .3;
     }
     &:not(:disabled):hover{
         background-color: ${props => props.theme.green700};
